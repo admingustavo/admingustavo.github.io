@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Odontológico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Consultorio Odontológico</h1>
+            <p>Bienvenidos a nuestro consultorio odontológico.</p>
+            <button id="btn-cita">Solicitar Cita</button>
+        </section>
+        <section id="servicios">
+            <h1>Servicios</h1>
+            <ul>
+                <li>Limpieza dental</li>
+                <li>Restauraciones</li>
+                <li>Endodoncia</li>
+                <li>Ortodoncia</li>
+            </ul>
+        </section>
+        <section id="equipo">
+            <h1>Equipo</h1>
+            <div class="equipo">
+                <img src="img/doctor1.jpg" alt="Doctor 1">
+                <h2>Dr. Juan Pérez</h2>
+                <p>Especialista en ortodoncia</p>
+            </div>
+            <div class="equipo">
+                <img src="img/doctor2.jpg" alt="Doctor 2">
+                <h2>Dra. María García</h2>
+                <p>Especialista en endodoncia</p>
+            </div>
+        </section>
+        <section id="contacto">
+            <h1>Contacto</h1>
+            <form id="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button id="btn-enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
